@@ -22,7 +22,7 @@ new_messages_count = messages_count + 10
 print(new_messages_count)
 
 # Exercise 5
-last_element = list_of_followers[3]
+last_element = list_of_followers[-1]
 print(last_element)
 
 # Exercise 6
@@ -31,7 +31,7 @@ list_of_names = names.split(',')
 print(list_of_names)
 
 # Exercise 7
-first_word = name[0:5]
+first_word = name.split()[0]
 first_word_uppercase = first_word.upper()
 new_name = first_word_uppercase + name[5:]
 print(new_name)
